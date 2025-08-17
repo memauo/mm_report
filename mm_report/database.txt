@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS report_stats (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  identifier VARCHAR(64) NOT NULL UNIQUE,
+  resolved_reports INT DEFAULT 0
+);
